@@ -6,7 +6,7 @@
 - `cd docker-react`
 - `docker build . -t <image-name>`
 ## Run the docker image
-- ` docker run -p 3000:3000 <image-name>` 
+- ` docker run -p 80:80 <image-name>` 
 
 ## Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
