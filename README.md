@@ -4,9 +4,9 @@
 
 ## Create the docker image first
 - `cd docker-react`
-- `docker build . -t <image-name>`
+- `sudo docker build -t react-app -f Dockerfile `
 ## Run the docker image
-- ` docker run -p 80:80 <image-name>` 
+- `sudo docker run -p 80:80 -t react-app` 
 
 ## Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
